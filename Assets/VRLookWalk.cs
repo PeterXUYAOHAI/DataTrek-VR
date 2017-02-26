@@ -15,10 +15,10 @@ public class VRLookWalk : MonoBehaviour {
 	private CharacterController cc;
 
 
-
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController> ();
+	
 
 	}
 	
