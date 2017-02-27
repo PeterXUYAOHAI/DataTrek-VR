@@ -13,6 +13,7 @@ public class dataCreator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Physics.gravity = new Vector3(0,0,0);
 		float scale = 50;
 		int number = 800;
 		Random rnd = new Random ();
