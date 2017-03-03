@@ -14,13 +14,13 @@ public class dataCreator : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Physics.gravity = new Vector3(0,0,0);
-		float scale = 50;
-		int number = 800;
+		float scale = 60;
+		int number = 2000;
 		Random rnd = new Random ();
 		for (int i = 0; i < number; i++) {
-			Instantiate (ball, new Vector3 ((float)(101 + rnd.NextDouble()*scale), (float)(101 + rnd.NextDouble()*scale), (float)(101 + rnd.NextDouble()*scale)), Quaternion.identity);
-			Instantiate(cube, new Vector3 ((float)(99 + rnd.NextDouble()*scale), (float)(99 + rnd.NextDouble()*scale), (float)(99 + rnd.NextDouble()*scale)), Quaternion.identity);
-			Instantiate(capsule, new Vector3 ((float)(95 + rnd.NextDouble()*scale), (float)(70 + rnd.NextDouble()*scale), (float)(70 + rnd.NextDouble()*scale)), Quaternion.identity);
+			Instantiate (ball, new Vector3 ((float)(103 + rnd.NextDouble()*scale), (float)(103 + rnd.NextDouble()*scale), (float)(103 + rnd.NextDouble()*scale)), Quaternion.identity);
+			Instantiate(cube, new Vector3 ((float)(60 + rnd.NextDouble()*scale), (float)(60 + rnd.NextDouble()*scale), (float)(97 + rnd.NextDouble()*scale)), Quaternion.identity);
+			Instantiate(capsule, new Vector3 ((float)(93 + rnd.NextDouble()*scale), (float)(70 + rnd.NextDouble()*scale), (float)(70 + rnd.NextDouble()*scale)), Quaternion.identity);
 		}
 
 
